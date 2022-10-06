@@ -1,0 +1,40 @@
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20rem);
+}
+
+.input {
+    position: absolute;
+    text-align: center;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 3rem;
+    color: black;
+    list-style: none;
+    margin-bottom: 10rem;
+}
+
+.button {
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(199, 145, 8);
+    cursor: pointer;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: rgb(241, 175, 8) ;
+    transition: .5s;
+    color: #000;
+}

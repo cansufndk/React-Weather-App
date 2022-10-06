@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif;
+}
+body{
+  background: linear-gradient(rgb(0 0 0 / 60%) 0 0), url(./Picture/Main.jpeg) no-repeat;
+  background-attachment: fixed ;
+  background-size: cover;
+}
+#baslik {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: rgb(217, 204, 204);
+}
